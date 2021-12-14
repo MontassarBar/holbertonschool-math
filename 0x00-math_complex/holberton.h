@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <stdio.h>
-
+#include <math.h>
 /**
  *struct complex - a complex number a + ib is represented by two doubles
  *@re: the reel part of the complex number
@@ -9,8 +9,8 @@
  */
 typedef struct complex
 {
-int re;
-int im;
+double re;
+double im;
 } complex;
 
 void display_complex_number(complex c);
