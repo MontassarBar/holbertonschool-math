@@ -16,4 +16,5 @@ else if (c.im < 0)
 printf("%0.1f - %0.1fi\n", c.re, -(c.im));
 else
 printf("%0.1f + %0.1fi\n", c.re, c.im);
+
 }
