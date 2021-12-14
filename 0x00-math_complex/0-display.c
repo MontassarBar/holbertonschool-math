@@ -7,13 +7,13 @@
 void display_complex_number(complex c)
 {
 if (c.im == 0)
-printf("%f\n", c.re);
+printf("%0.1f\n", c.re);
 else if (c.im == 1)
-printf("%f + i\n", c.re);
+printf("%0.1f + i\n", c.re);
 else if (c.im == -1)
-printf("%f - i\n", c.re);
+printf("%0.1f - i\n", c.re);
 else if (c.im < 0)
-printf("%f - %fi\n", c.re, -(c.im));
+printf("%0.1f - %0.1fi\n", c.re, -(c.im));
 else
-printf("%f + %fi\n", c.re, c.im);
+printf("%0.1f + %0.1fi\n", c.re, c.im);
 }
